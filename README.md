@@ -1,6 +1,6 @@
-# python-string-similarity
+! python-string-similarity
 
-![Python package](https://github.com/luozhouyang/python-string-similarity/workflows/Python%20package/badge.svg)
+ [Python package](https://github.com/luozhouyang/python-string-similarity/workflows/Python%20package/badge.svg)
 [![PyPI version](https://badge.fury.io/py/strsimpy.svg)](https://badge.fury.io/py/strsimpy)
 [![Python](https://img.shields.io/pypi/pyversions/strsimpy.svg?style=plastic)](https://badge.fury.io/py/strsimpy)
 
@@ -408,3 +408,4 @@ s.distance('Lorem ipsum dolor sit amet, consectetur adipiscing elit.', 'Amet Lor
 * [StringSimilarity.NET](https://github.com/feature23/StringSimilarity.NET) a .NET port of java-string-similarity
 
 Use java-string-similarity in your project and want it to be mentioned here? Don't hesitate to drop me a line!
+ 
