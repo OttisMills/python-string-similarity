@@ -1,4 +1,4 @@
-! python-string-similarity
+!*python-string-similarity
 
  [Python package](https://github.com/luozhouyang/python-string-similarity/workflows/Python%20package/badge.svg)
 [![PyPI version](https://badge.fury.io/py/strsimpy.svg)](https://badge.fury.io/py/strsimpy)
@@ -9,7 +9,7 @@ Python3.x implementation of [tdebatty/java-string-similarity](https://github.com
 
 A library implementing different string similarity and distance measures. A dozen of algorithms (including Levenshtein edit distance and sibblings, Jaro-Winkler, Longest Common Subsequence, cosine similarity etc.) are currently implemented. Check the summary table below for the complete list...
 
-- [python-string-similarity](#python-string-similarity)
+- [python-string-similarity](!python-string-similarity)
   - [Download](#download)
   - [Overview](#overview)
   - [Normalized, metric, similarity and distance](#normalized-metric-similarity-and-distance)
@@ -51,7 +51,7 @@ The main characteristics of each implemented algorithm are presented below. The 
 
 |  									|  						| Normalized? 	| Metric?	| Type    | Cost | Typical usage |
 | --------					|-------			|-------------	|-------- | ------  | ---- | ---   |
-| [Levenshtein](#levenshtein)		|distance 				| No 			| Yes 		|         | O(m*n) <sup>1</sup> |  |
+| [Levenshtein](#levenshtein)		|distance 				| No 			| Yes 		|         | O(m!n) <sup>1</sup> |  |
 | [Normalized Levenshtein](#normalized-levenshtein)	|distance<br>similarity	| Yes 			| No 		| 	      | O(m*n) <sup>1</sup> |  |
 | [Weighted Levenshtein](#weighted-levenshtein)		|distance 				| No 			| No 		| 	      | O(m*n) <sup>1</sup> | OCR |
 | [Damerau-Levenshtein](#damerau-levenshtein) <sup>3</sup> 	|distance 				| No 			| Yes 		| 	      | O(m*n) <sup>1</sup> |  |
@@ -408,4 +408,4 @@ s.distance('Lorem ipsum dolor sit amet, consectetur adipiscing elit.', 'Amet Lor
 * [StringSimilarity.NET](https://github.com/feature23/StringSimilarity.NET) a .NET port of java-string-similarity
 
 Use java-string-similarity in your project and want it to be mentioned here? Don't hesitate to drop me a line!
- 
+  
